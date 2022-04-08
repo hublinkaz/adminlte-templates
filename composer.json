@@ -1,0 +1,45 @@
+{
+    "name": "hublinkaz/adminlte-templates",
+    "type": "library",
+    "description": "AdminLTE templates for Hublinkaz Laravel Generator",
+    "keywords": [
+        "hublinkaz",
+        "laravel",
+        "generator",
+        "adminlte",
+        "templates",
+        "bootstrap"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aga Mustafayev",
+            "email": "info@hublink.az"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0",
+        "hublinkaz/laravel-ui-adminlte": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hublinkaz\\AdminLTETemplates\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Hublinkaz\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
+            ]
+        }
+    },
+    "funding": [
+        {
+            "type": "",
+            "url": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
